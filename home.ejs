@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h3>Penis your penis:</h3>
+    <form action>
+        <% list.forEach(function(element) { %>
+            <input type="radio" name="drink" value= <%= element.val %>>
+            <label>  
+            <%= element.name %>
+            </label>
+            <br>
+        <% }) %>
+
+        <input type="submit" value="Submit">
+    </form>
+<body>
+
+</html>
